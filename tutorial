@@ -1,0 +1,8 @@
+1. Go to firebase, connect to webapp, copy only the config values.
+2. make a new file under app folder
+3. npm instak=ll firebase angularfire2, add AngularFireModule to imports in app.module.ts, also initialize it using FIREBASECONFIG
+4. import AngularFireDatabaseModule
+5. You should read and commit lazy loading
+
+6.Inside source folder create new folder named models
+7. Create a service for addign items in firebase
